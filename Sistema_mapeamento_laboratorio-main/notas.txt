@@ -1,12 +1,20 @@
-Instalação dos requirements
+Criação do ambiente virtual
 
-pip install -r requirements.txt
+python -m venv venv
 
 Ativação do ambiente virtual
 
 .\venv\Scripts\Activate
 
+Instalação dos requirements
+
+pip install -r requirements.txt
+
 Atualização do banco de dados
 
 python manage.py makemigrations
 python manage.py migrate
+
+Iniciar o servidor
+
+python manage.py runserver
